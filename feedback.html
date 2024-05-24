@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>
+    <h1>Feedback Please!</h1></title>
+    </head>
+    <body>
+        
+     <form action="https://httpbin.org/get" method="get">
+        
+        <Fieldset>
+            <div class="b">
+        <label for="Firstname">Firstname*:</label>
+        <input type="text" name="Firstname" id="Firstname" autocomplete="on" required autofocus>
+        <br>
+        <br>
+        <label for="Lastname">Lastname*:</label>
+        <input type="text" name="Lastname" id="Lastname" autocomplete="on" required>
+        <br>
+        <br>
+        <label for="Feedback">Feedback*:</label>
+        <br>
+        <textarea name="Feedback" id="Feedback" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="Contact">Any Way to Contact you (Optional):</label>
+        <br>
+        <input type="text" name="Contact" id="Contact" size="50">
+        <br>
+        <br>
+        <label for="number">What's your favorite number (between 0-100):</label>
+        <input type="number" name="number" id="number" min="0" max="100" placeholder="3">
+        <br>
+        <br>
+        <label for="rate">Impression on our website:</label>
+        <br>
+        <select name="rate" id="rate" required>
+            <option value="" disabled selected hidden>Please select a rating</option> 
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Could do better</option>
+            <option value="1">Worst</option>
+        </select>
+        
+        <br>
+        <br>
+        <fieldset>
+        <legend>Interested in our works ?</legend>
+        <br>
+        <input type="checkbox" name="I" id="I">
+        <label for="I">Interested</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="NI" id="NI" >
+        <label for="NI">Not Interested</label>
+    </fieldset>
+    <br>
+    <br>
+    <button type="submit" style="height:30px; width: 60px;;">Submit</button>
+    &nbsp;
+    <button type="submit" style="height:30px; width: 60px;;" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+    &nbsp;
+    <button type="reset" style="height:30px; width: 60px;;">Reset</button>
+</div>
+    </Fieldset>
+     </form>
+     <br>
+     <img src="icegif-879.gif" alt="Thank you for your services gif">
+     <hr>
+     <footer>
+     <a href="index.html">&lt;&nbsp;Back</a>
+     <br>
+     &lt;&lt;&lt;&nbsp;<a href="TSP.html">&copy;TSP</a>&nbsp; &gt;&gt;&gt; 
+    </footer> 
+      
+    </body>
+</html>
